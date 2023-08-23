@@ -1,0 +1,182 @@
+#bordaExterna{
+  background-color: #fff;
+  margin: 20px auto 20px auto;
+  display: flex;
+  width: 825px;
+  height: auto;
+  padding: 24px 56px 5px 56px;
+  flex-direction: column;
+  align-items: center;
+  gap: 99px;
+  border-radius: 40px;
+  background: #FFF;
+}
+#botaoSuperior{
+  background-color: #E5D8EA;
+  flex-shrink: 0;
+  width: 178px;
+  height: 68px;
+  border-radius: 999px;
+  margin: 0px auto 0px auto;
+}
+#informacoes{
+  width: 880px;
+  margin-left: 72px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.nomeReferencia{
+  color: #864293;
+}
+.orientacao{
+  margin: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0;
+  color: #372D3B;
+}
+.tempo{
+  margin: 0;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  color: #372D3B;
+}
+#motorista{
+  margin-top: 99px;
+  margin-right: 68px;
+}
+.profilePicture{
+  width: 142px;
+  height: 142px;
+}
+.modelCar{
+  width: 280px;
+  height: 110px;
+  margin-left: 100px;
+}
+#perfil{
+  margin-top: -147px;
+}
+.avaliacaoMotorista{
+  width: 100px;
+  height: 31px;
+  padding: 7px 21px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  display: flex;
+  margin-top: -40px;
+  margin-left: 5px;
+}
+#infoCar{
+  float: right;
+  margin-top: -120px;
+}
+.placa{
+  color: #372D3B;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.carro{
+  margin-top: 10px;
+  color: #372D3B;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#message{
+  display: flex;
+  margin-top: 99px;
+  justify-content: space-between;
+  align-items: center;
+}
+.sendMessage{
+  width: 269px;
+  border: 0px;
+  background-color: #F5EDF7;
+  border-radius: 24px;
+  padding: 17px 209px 18px 19px;
+  font-size: 20px;
+  color: #372D3B;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+}
+.sendMessage::placeholder{
+  width: max-content;
+  color: #372D3B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sendMessage:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+#message button{
+  border-radius: 8px;
+  background: var(--brand-colors-ignite-mid, #00875F);
+  display: flex;
+  padding: 16px 24px 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#conversa{
+  margin-top: 99px;
+  margin-left: auto;
+  margin-right: 12px;
+  padding: 0px;
+}
+.cliente, .motorista{
+  background-color: #E5E1E6;
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px 12px 9px;
+  border-radius: 9px;
+  border: 1px solid #F0EAEA;
+  margin-bottom: 34px;
+}
+.cliente img, .motorista img{
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background: lightgray 50% / cover no-repeat, #C4C4C4;
+}
+.cliente p, .motorista p{
+  width: 450px;
+  color: #372D3B;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-align: left;
+}
+.cliente button, .motorista button{
+  border: 0px;
+  background-color: #E5E1E6;
+}
+.cliente button img, .motorista button img{
+  width: 24px;
+  height: 24px;
+}
