@@ -1,7 +1,7 @@
 import "./App.css";
 import profilePicture from "./img/profilePicture.png";
 import modelCar from "./img/modelCar.png";
-import avaliacaoMotorista from "./img/avaliacaoMotorista.png";
+import avaliacaoMotorista from "./img/avaliacaoMotorista.svg";
 import phone from "./img/phone.svg";
 import marker from "./img/marker.svg";
 import client from "./img/client.png";
@@ -20,6 +20,7 @@ function App() {
           <div id="perfil">
             <img className="profilePicture" src={profilePicture} alt="Foto do motorista"/>
             <img className="avaliacaoMotorista" src={avaliacaoMotorista} alt="Avaliação do motorista"/>
+            <p>Fábio D.</p>
           </div>
           <div id="infoCar">
             <p className="placa">BCD0D19</p>
